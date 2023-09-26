@@ -15,5 +15,8 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("imprimo la variable i = ");
         }
+
+        Empleado empleado1 = new Empleado(712321321);
+        System.out.println("El dni del empleado es " + empleado1.getDni());
     }
 }
